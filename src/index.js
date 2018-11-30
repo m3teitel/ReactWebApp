@@ -20,6 +20,6 @@ class List extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <List name="Elena" />,
+  <List name="Dennis" />,
   document.getElementById('root')
 );
