@@ -8,7 +8,7 @@ class List1 extends React.Component {
       <div className="shopping-list">
         <h1>Shopping List for {this.props.name}</h1>
         <ul>
-          <li><Link to="/page1">Page1</Link></li>
+          <li><Link to="/page1.js">Page1</Link></li>
         </ul>
       </div>
     );
