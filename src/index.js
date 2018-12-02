@@ -1,21 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import Summary from './Summary'
+import './index.css';
 
-class List1 extends React.Component {
+class List1 extends React.Component{
 	render() {
 		return (
-      <div className="shopping-list">
-        <h1>Shopping List for {this.props.name}</h1>
-        <ul>
-          <li><Link to="/page1.js">Page1</Link></li>
-        </ul>
-      </div>
+			<Router>
+				<div>
+						<Link to="/Summary">
+							<button className="nav-button">Summary</button>
+						</Link>
+						<Link to="/List">
+							<button className="nav-button">Installation</button>
+						</Link>
+						<Link to="/List">
+							<button className="nav-button">Tutorial</button>
+						</Link>
+						<Link to="/List">
+							<button className="nav-button">Web Page</button>
+						</Link>
+						<Link to="/List">
+							<button className="nav-button">Conclusion</button>
+						</Link>
+						<Link to="/List">
+							<button className="nav-button">Credits</button>
+						</Link>
+						<Route path="/Summary" component={Summary} />
+					</div>
+			</Router>
     );
 	}
 }
-
-// ========================================
 
 ReactDOM.render(
   <List1 name="CPS530" />,
