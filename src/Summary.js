@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import './summary.css'
+import './Summary.css'
 
 class Summary extends React.Component {
 	render() {
