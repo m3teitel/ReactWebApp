@@ -7,7 +7,7 @@ class Summary extends React.Component {
 		return (
 			<html>
       <div className="parallax"></div>
-			<div>
+			<div className="bg-text">
         <h1>Summary Page</h1>
 				<br/>
 				<body>
