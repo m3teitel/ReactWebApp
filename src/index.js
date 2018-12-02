@@ -10,7 +10,7 @@ class List1 extends React.Component{
 			<Router>
 				<div>
 						<Link to="/Summary">
-							<button className="nav-button">Summary12121</button>
+							<button className="nav-button">Summary2121</button>
 						</Link>
 						<Link to="/List">
 							<button className="nav-button">Installation</button>

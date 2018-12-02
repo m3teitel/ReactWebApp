@@ -5,7 +5,9 @@ import './summary.css'
 class Summary extends React.Component {
 	render() {
 		return (
-      <div>
+			<html>
+      <div className="parallax"></div>
+			<div>
         <h1>Summary Page</h1>
 				<br/>
 				<body>
@@ -14,6 +16,7 @@ class Summary extends React.Component {
 					</p>
 				</body>
       </div>
+			</html>
     );
 	}
 }
