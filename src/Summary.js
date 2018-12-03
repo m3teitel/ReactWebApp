@@ -99,9 +99,9 @@ class Summary extends React.Component {
 						Organization: code organization is hard to maintain in the development process.
 						</p>
 					</p>
-     		 </div>
-		</div>
-    );
+     		 	</div>
+			</div>
+    	);
 	}
 }
 
