@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import Summary from './Summary';
+import Summary from './Summary.js';
 import Installation from './Installation';
 import Tutorial from './Tutorial';
 import WebPage from './WebPage';
@@ -14,7 +14,7 @@ class List1 extends React.Component{
 		return (
 			<Router>
 				<div>
-						<Link to="/Summary">
+						<Link to="/Summary.js">
 							<button className="nav-button">Summary2121</button>
 						</Link>
 						<Link to="/Installation">
@@ -32,7 +32,7 @@ class List1 extends React.Component{
 						<Link to="/Credits">
 							<button className="nav-button">Credits</button>
 						</Link>
-						<Route path="/Summary" component={Summary} />
+						<Route path="/Summary.js" component={Summary} />
 						<Route path="/Installation" component={Installation} />
 						<Route path="/Tutorial" component={Tutorial} />
 						<Route path="/WebPage" component={WebPage} />
