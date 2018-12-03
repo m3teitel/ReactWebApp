@@ -1,24 +1,4 @@
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 10px;
-  color: rgb(0, 0, 0);
-}
 
-h1 {
-  font: 20px "Century Gotic", Futura, sans-serif;
-  margin: 10px 10px 10px 10px;
-  color: white;
-  font-weight: bold;
-}
-
-.gradient{
-  background-image: linear-gradient(white, #8ad1b5);
-  height: 1000px;
-}
-
-body, html {
-    height: 100%;
-}
 .bg-textwebpage {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -33,21 +13,4 @@ body, html {
 
 .page{
   color: black;
-}
-
-li{
-	transition: all 0.4s;
-}
-html:hover li{
-	top: -100%;
-	left: -100%;
-	transform: translate(94%, 0%);
-}
-.move{
-	transition: all 0.4s;
-}
-html:hover .move{
-	top: -100%;
-	left: -100%;
-	transform: translate(-30%, -135%);
 }
