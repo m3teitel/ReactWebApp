@@ -6,8 +6,8 @@ class Credits extends React.Component {
 	render() {
 		return (
 			<div>
-      <div className="parallax"></div>
-			<div className="bg-text">
+      
+			<div className="backgtext">
         <h1>Credits Page</h1>
 				<br/>
 				<body>

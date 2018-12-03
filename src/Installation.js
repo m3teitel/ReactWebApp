@@ -6,8 +6,7 @@ class Installation extends React.Component {
 	render() {
 		return (
 			<div>
-      <div className="parallax"></div>
-			<div className="bg-text">
+			<div className="background-text">
         <h1>Installation Page</h1>
 				<br/>
 				<body>

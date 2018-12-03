@@ -29,8 +29,8 @@ class Tutorial extends React.Component {
     const { isLoading, pics, error } = this.state;
     return (
       <React.Fragment>
-				<div className="parallax"></div>
-				<div className="bg-text">
+				
+				<div className="bgtext">
 					<h1>How to make your own Website!!1! ( ͡° ͜ʖ ͡°)</h1>
 					<br/>
 					<body>
