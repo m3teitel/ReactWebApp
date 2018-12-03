@@ -11,7 +11,7 @@ class Tutorial extends React.Component {
   };
 
   fetchPics() {
-    fetch("https://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=10")
+    fetch("https://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=2")
       .then(response => response.json())
       .then(data =>
         this.setState({
