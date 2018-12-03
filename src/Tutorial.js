@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 import './Tutorial.css'
 var redditSubModule = "spacePorn";
-var json;
 
 class Tutorial extends React.Component {
   state = {
@@ -12,7 +11,7 @@ class Tutorial extends React.Component {
   };
 
   fetchPics() {
-    fetch("https://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=10")
+    fetch("https://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=2")
       .then(response => response.json())
       .then(data =>
         this.setState({
@@ -49,7 +48,9 @@ class Tutorial extends React.Component {
 						return(
 							<div key={data.title}>
 						<h1>{data.title}</h1>
-	          <img src={data.url} className="listimg"/>
+	          <ul>
+							<li>{ data.author }</li>
+						</ul>
 						</div>
 	      );
 					})
