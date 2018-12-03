@@ -5,7 +5,7 @@ import './Conclusion.css'
 class Conclusion extends React.Component {
 	render() {
 		return (
-			<html>
+			<div>
       <div className="parallax"></div>
 			<div className="bg-text">
         <h1>Conclusion Page</h1>
@@ -16,7 +16,7 @@ class Conclusion extends React.Component {
 					</p>
 				</body>
       </div>
-			</html>
+			</div>
     );
 	}
 }

@@ -5,7 +5,7 @@ import './Credits.css'
 class Credits extends React.Component {
 	render() {
 		return (
-			<html>
+			<div>
       <div className="parallax"></div>
 			<div className="bg-text">
         <h1>Credits Page</h1>
@@ -16,7 +16,7 @@ class Credits extends React.Component {
 					</p>
 				</body>
       </div>
-			</html>
+			</div>
     );
 	}
 }

@@ -5,7 +5,7 @@ import './Installation.css'
 class Installation extends React.Component {
 	render() {
 		return (
-			<html>
+			<div>
       <div className="parallax"></div>
 			<div className="bg-text">
         <h1>Installation Page</h1>
@@ -16,7 +16,7 @@ class Installation extends React.Component {
 					</p>
 				</body>
       </div>
-			</html>
+			</div>
     );
 	}
 }
