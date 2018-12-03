@@ -6,14 +6,15 @@ import Installation from './Installation';
 import Tutorial from './Tutorial';
 import WebPage from './WebPage';
 import Conclusion from './Conclusion';
-import Credits from './Credits'
+import Credits from './Credits';
+import fireball from './ballsoffire.jpg';
 import './index.css';
 
 class List1 extends React.Component{
 	render() {
 		return (
 			<Router>
-				<div>
+				<div align="center">
 						<Link to="/Summary.js">
 							<button className="nav-button">Summary2121</button>
 						</Link>
@@ -23,6 +24,7 @@ class List1 extends React.Component{
 						<Link to="/Tutorial">
 							<button className="nav-button">Tutorial</button>
 						</Link>
+						<img src={fireball} height="100"/>
 						<Link to="/WebPage">
 							<button className="nav-button">Web Page</button>
 						</Link>
