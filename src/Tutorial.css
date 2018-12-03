@@ -18,6 +18,10 @@
   width: 80%;
   padding: 10px;
 }
+.gradient{
+  background-image: linear-gradient(white, #8ad1b5);
+}
+
 .listimg {
   height: 40%;
   width:  40%;

@@ -29,7 +29,7 @@ class Tutorial extends React.Component {
     const { isLoading, pics, error } = this.state;
     return (
       <React.Fragment>
-				
+				<html class="gradient">
 				<div className="bgtext">
 					<h1>How to make your own Website!!1! ( ͡° ͜ʖ ͡°)</h1>
 					<br/>
@@ -80,6 +80,7 @@ class Tutorial extends React.Component {
 					  ) : (
           <h3>Loading...</h3>
         )}
+        </html>
       </React.Fragment>
     );
   }
