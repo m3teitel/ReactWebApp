@@ -5,7 +5,7 @@ import './WebPage.css'
 class WebPage extends React.Component {
 	render() {
 		return (
-			<html>
+			<div>
       <div className="parallax"></div>
 			<div className="bg-text">
         <h1>WebPage Page</h1>
@@ -16,7 +16,7 @@ class WebPage extends React.Component {
 					</p>
 				</body>
       </div>
-			</html>
+			</div>
     );
 	}
 }

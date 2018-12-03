@@ -5,12 +5,11 @@ import './summary.css';
 class Summary extends React.Component {
 	render() {
 		return (
-			<html>
-      <div className="parallax"></div>
+			<div>
+      <div className="parallax"/>
 			<div className="bg-text">
         <h1>Summary Page</h1>
 				<br/>
-				<body>
 					<p>
 <h1>Frontend: React</h1>
 
@@ -98,9 +97,8 @@ Event-driven: it is a single threaded framework and therefore uses callbacks whi
 Organization: code organization is hard to maintain in the development process.
 </p>
 					</p>
-				</body>
       </div>
-			</html>
+			</div>
     );
 	}
 }
