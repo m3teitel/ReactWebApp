@@ -7,9 +7,9 @@ class Summary extends React.Component {
 	render() {
 		return (
 			<body>
-			<div className="text">
-        <h1>Summary Page</h1>
-				<br/>
+				<div className="text">
+					<h1>Summary Page</h1>
+					<br/>
 					<div>
 						<h1>Frontend: React</h1>
 						
@@ -96,9 +96,9 @@ class Summary extends React.Component {
 						<p>
 						Organization: code organization is hard to maintain in the development process.
 						</p>
-					</p>
-     		 	</div>
-			</div>
+					</div>
+				</div>
+			</body>
     	);
 	}
 }
