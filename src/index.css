@@ -3,7 +3,7 @@ body {
   margin: 20px;
 }
 
-div {
+.buttons{
 	background-image: url("space.jpg");
 }
 

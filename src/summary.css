@@ -29,9 +29,9 @@ h1 {
 
 body, html {
     height: 100%;
-   
 }
 .bg-text {
+  background-image: url("");
   background-color: rgb(58,05,62); /* Fallback color */
   color: white;
   font-weight: bold;

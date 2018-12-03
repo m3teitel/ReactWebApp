@@ -14,7 +14,7 @@ class List1 extends React.Component{
 	render() {
 		return (
 			<Router>
-				<div align="center">
+				<div className="buttons" align="center">
 						<Link to="/Summary.js">
 							<button className="nav-button">Summary2121</button>
 						</Link>
