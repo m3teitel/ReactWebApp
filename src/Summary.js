@@ -6,16 +6,15 @@ import './summary.css';
 class Summary extends React.Component {
 	render() {
 		return (
+			<html>
 			<body>
 			<div className="gradient">
 				<div className="text">
-				
-
 					<h1>Summary Page</h1>
 					<br/>
 					<div>
 						<h1>Front-end: React</h1>
-						
+
 						<p>
 						React is an open-source JavaScript library for building user interfaces for web and mobile applications.
 						It is one of the most popular UI library and framework due to multiple factors including its fast learning curve, functionality, and simplicity.
@@ -68,8 +67,8 @@ class Summary extends React.Component {
 
 
 						<p>
-						Express is an open-source application framework for Node.js. It has grown in popularity due to its flexibility, simplicity, extensibility, and performance.
-						The best uses of Express are for applications that communicate with third party servers, real-time applications, and ones that monitor the visitor’s actions.
+						Node.js is an open-source application framework. It has grown in popularity due to its flexibility, simplicity, extensibility, and performance.
+						The best uses of Node are for applications that communicate with third party servers, real-time applications, and ones that monitor the visitor’s actions.
 						</p>
 
 						<p>
@@ -77,15 +76,15 @@ class Summary extends React.Component {
 						</p>
 
 						<p>
-						Fast Development: Expresses uses JavaScript on both the backend and frontend which results in the developer not losing time learning a new language.
+						Fast Development: Node uses JavaScript on both the backend and frontend which results in the developer not losing time learning a new language.
 						</p>
 
 						<p>
-						I/O Handling: handles a lot of concurrent actions with ease and is great for handling input from users.
+						I/O Handling: Handles a lot of concurrent actions with ease and is great for handling input from users.
 						</p>
 
 						<p>
-						Community: code is always reviewed and improved with its large open-source community.
+						Community: Code is always reviewed and improved with its large open-source community.
 						</p>
 
 						<p>
@@ -93,16 +92,17 @@ class Summary extends React.Component {
 						</p>
 
 						<p>
-						Event-driven: it is a single threaded framework and therefore uses callbacks which can be difficult to understand and can easily entangle the code.
+						Performance: Node.js can have some inefficiencies with heavy computations and can have a state of <a href="http://callbackhell.com/">"callback hell"</a>
 						</p>
 
 						<p>
-						Organization: code organization is hard to maintain in the development process.
+						Organization: Code organization is hard to maintain in the development process.
 						</p>
 					</div>
 					</div>
 				</div>
 			</body>
+			</html>
     	);
 	}
 }

@@ -16,14 +16,11 @@ class List1 extends React.Component{
 	render() {
 		return (
 			<Router>
-
 				<div className="buttons" align="center">
-				
-<div class="container">
-<img src={circle} alt="circle" width="200" height="200"/>
-<div class="centered"> <h1 style={{fontSize: "30px",}}>CPS 530</h1> </div>
-</div>
-
+						<div className="container">
+								<img src={circle} alt="circle" width="200" height="200"/>
+								<div className="centered"> <h1 style={{fontSize: "30px",}}>CPS 530</h1> </div>
+							</div>
 						<Link to="/Summary.js">
 							<button className="nav-button">Summary</button>
 						</Link>
@@ -33,10 +30,6 @@ class List1 extends React.Component{
 						<Link to="/Tutorial">
 							<button className="nav-button">Tutorial</button>
 						</Link>
-
-&nbsp;
-
-
 						<Link to="/WebPage">
 							<button className="nav-button">Web Page</button>
 						</Link>
@@ -52,12 +45,9 @@ class List1 extends React.Component{
 						<Route path="/WebPage" component={WebPage} />
 						<Route path="/Conclusion" component={Conclusion} />
 						<Route path="/Credits" component={Credits} />
-
-
-						
 					</div>
 			</Router>
-			
+
     	);
 	}
 }

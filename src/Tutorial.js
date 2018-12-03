@@ -1,37 +1,14 @@
 import React from 'react';
 import './index.css';
 import './Tutorial.css'
-var redditSubModule = "spacePorn";
 
 class Tutorial extends React.Component {
-  state = {
-    isLoading: true,
-    users: [],
-    error: null
-  };
-
-  fetchPics() {
-    fetch("https://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=2")
-      .then(response => response.json())
-      .then(data =>
-        this.setState({
-          pics: data,
-          isLoading: false,
-        })
-      )
-      .catch(error => this.setState({ error, isLoading: false }));
-  }
-
-  componentDidMount() {
-    this.fetchPics();
-  }
   render() {
-    const { isLoading, pics, error } = this.state;
     return (
       <React.Fragment>
 				<html class="gradient">
 				<div className="bgtext">
-					<h1 class="webHead">How to make your own Website!!1! ( ͡° ͜ʖ ͡°)</h1>
+					<h1 class="webHead">How to make your own Website!</h1>
 					<br/>
 					<body>
 						<p class="speaker">
@@ -48,18 +25,18 @@ class Tutorial extends React.Component {
               After importing the necessary tools, we are now going to create our first class in React, which will also extend the React framework. Name it after
               the name of the file, so since ours is called firstPage.js, our will look like this:
             </p>
-            <pre class="code"><code>{'class firstPage extends React.Component {\n  render() {\n    return (\n\n    );\n  }\n}\n\nexport default firstPage'}    
+            <pre class="code"><code>{'class firstPage extends React.Component {\n  render() {\n    return (\n\n    );\n  }\n}\n\nexport default firstPage'}
             </code></pre>
             <p class="speaker">
               Now, within the return brackets, we can starting writing our html code. Since you have come here to learn React and Node.js, it is presumed that you
               have at least basic knowledge of html. As such, we are going to add our basic skeleton code inside the brackets.
             </p>
-            <pre class="code"><code>{'return(\n  <html>\n    <body>\n\n    </body>\n  </html>\n);'}             
+            <pre class="code"><code>{'return(\n  <html>\n    <body>\n\n    </body>\n  </html>\n);'}
             </code></pre>
             <p class="speaker">
               Now, we can customize this however we like! first, let's add a title to our page.
             </p>
-            <pre class="code"><code>{'<html>\n  <body>\n    <h1 align="center">Best Planets Around</h1>\n\n  </body>\n</html>'}             
+            <pre class="code"><code>{'<html>\n  <body>\n    <h1 align="center">Best Planets Around</h1>\n\n  </body>\n</html>'}
             </code></pre>
             <p class="speaker">
               Let's throw a list onto the page. Here, we are obsessed with space, so it's going to be a list of my favourite planets, but you can do whatever topic you like.
@@ -151,24 +128,10 @@ class Tutorial extends React.Component {
             </code></pre>
             <p class="speaker">
               And that's it! Pretty simple huh? Now you know how to utilise React and Node.js effectively, very much so if your webpage is anything to go by. DAMN it looks good.
-              Sorry, im getting excited.....<br/>and flustered......<br/>.........<br/>....mmmmmmmm................<br/>.......<br/>............<br/>...............ok I'll leave now.
+              Sorry, im getting excited............<br/>...ok I'll leave now.
             </p>
           </body>
 				</div>
-        {error ? <p>{error.message}</p> : null}
-        {!isLoading ? (
-					pics.data.children.map(pic => {
-						const { data } = pic;
-						return(
-							<div key={data.title}>
-						<h1>{data.title}</h1>
-	          <img src={data.url} className="listimg" alt="Reddit"/>
-						</div>
-	      );
-					})
-					  ) : (
-          <h3>Loading...</h3>
-        )}
         </html>
       </React.Fragment>
     );

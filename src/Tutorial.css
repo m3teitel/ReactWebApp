@@ -4,7 +4,7 @@
 }
 
 .bgtext {
-    color: #8ad1b5;
+  color: #8ad1b5;
   border: 3px solid #8ad1b5;
   position: relative;
   width: 80%;
@@ -30,13 +30,19 @@
   width:  40%;
 }
 
-.speaker { 
+.speaker {
   text-align: left;
-  text-shadow: 1px 1px #000000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 18px;
 }
 
 .code {
+  font-size: 14px;
   text-align: left;
   color: #a6eaff;
-  text-shadow: 1px 1px #1a0079;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: rgba(22, 56, 56, 0.34);
+  width: wrap-content;
+  padding: 5px;
+  width: 90%;
 }
