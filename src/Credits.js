@@ -5,8 +5,8 @@ import './Credits.css'
 class Credits extends React.Component {
 	render() {
 		return (
-			<div>
-      
+			
+      <div className="gradient">
 			<div className="backgtext">
         <h1>Credits Page</h1>
 				<br/>

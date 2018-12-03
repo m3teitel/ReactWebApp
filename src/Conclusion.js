@@ -5,7 +5,8 @@ import './Conclusion.css'
 class Conclusion extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="gradient">
+			
     
 			<div className="backgroundtext">
         <h1>Conclusion Page</h1>

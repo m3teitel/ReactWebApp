@@ -1,4 +1,9 @@
 
+.gradient{
+  background-image: linear-gradient(white, #8ad1b5);
+}
+
+
 .bgtext {
     color: #8ad1b5;
   border: 3px solid #8ad1b5;
