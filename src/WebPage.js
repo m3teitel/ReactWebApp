@@ -18,7 +18,6 @@ class WebPage extends React.Component {
 	render() {
 		return (
 			<html class="gradient">
-				<title>My First React Page</title>
 				<body class="bg-textwebpage">
 					<h1 class="header" align="center">Best Planets Around</h1>
 					<ol>

@@ -1,7 +1,6 @@
 
 .bg-textwebpage {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: rgb(255, 255, 255);
   font-weight: bold;
   border: 3px solid #8ad1b5;
@@ -29,7 +28,7 @@
 
 .trueBut{
   opacity: 0.75;
-  background-color: rgb(0, 150, 50); /* Green */
+  background-color: rgb(0, 150, 50);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -41,7 +40,7 @@
 
 .falseBut{
   opacity: 0.75;
-  background-color: rgb(146, 4, 4); /* Green */
+  background-color: rgb(146, 4, 4);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -54,12 +53,9 @@
 .trueBut:hover {
   opacity: 1
 }
+
 .falseBut:hover {
   opacity: 1
-}
-
-.page{
-  color: black;
 }
 
 .gradient{
