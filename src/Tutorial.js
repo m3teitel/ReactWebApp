@@ -19,7 +19,7 @@ class Tutorial extends React.Component {
 							var redditSubModule = "SpacePorn";
 							var http = require('http');
 							var name = "";
-							var url,request,json,redditResponse;
+							var url, request, json, redditResponse;
 							function getRedditPosts() {
 								url = "http://www.reddit.com/r/" + redditSubModule + "/new/.json?limit=50";
 								request = http.get(url, function(response) {
@@ -45,8 +45,7 @@ class Tutorial extends React.Component {
 								});
 							}
 							getRedditPosts();
-							var temp = this.name;
-							document.getElementById("test").innerHTML = temp;
+							document.getElementById("test").innerHTML = name;
 						</script>
 						<div id="test"></div>
 						<br/>
