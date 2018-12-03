@@ -29,7 +29,7 @@ var redditSubModule = "SpacePorn";
 					console.log(err);
 				});
 			}
-			getRedditPosts().
+			getRedditPosts();
 class Tutorial extends React.Component {
 	render() {
 		return (
