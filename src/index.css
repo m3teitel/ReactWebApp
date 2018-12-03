@@ -1,13 +1,14 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+	background-color: #002685;
 }
 
 .nav-button {
 	background-color:#009687;
 	display:inline-block;
 	cursor:pointer;
-	color:#ff00ea;
+	color:#ffffff;
 	font-family:Trebuchet MS;
 	font-size:15px;
 	padding:8px 23px;
