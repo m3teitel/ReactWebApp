@@ -48,7 +48,8 @@ class Tutorial extends React.Component {
 						const { data } = pic;
 						return(
 							<div key={data.title}>
-	          <img src={data.url} />
+						<h1>{data.title}</h1>
+	          <img src={data.url} className="listimg"/>
 						</div>
 	      );
 					})
