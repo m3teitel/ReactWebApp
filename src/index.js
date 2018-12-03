@@ -42,7 +42,7 @@ class List1 extends React.Component{
 						<Route path="/Credits" component={Credits} />
 					</div>
 			</Router>
-    );
+    	);
 	}
 }
 
