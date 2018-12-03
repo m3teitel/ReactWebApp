@@ -7,7 +7,9 @@ import Tutorial from './Tutorial';
 import WebPage from './WebPage';
 import Conclusion from './Conclusion';
 import Credits from './Credits';
-import fireball from './fireball.gif';
+import circle from './circle2.gif';
+
+
 import './index.css';
 
 class List1 extends React.Component{
@@ -17,8 +19,13 @@ class List1 extends React.Component{
 
 				<div className="buttons" align="center">
 				
+<div class="container">
+<img src={circle} alt="circle" width="200" height="200"/>
+<div class="centered"> <h1 style={{fontSize: "30px",}}>CPS 530</h1> </div>
+</div>
+
 						<Link to="/Summary.js">
-							<button className="nav-button">Summary2121</button>
+							<button className="nav-button">Summary</button>
 						</Link>
 						<Link to="/Installation">
 							<button className="nav-button">Installation</button>
@@ -27,7 +34,8 @@ class List1 extends React.Component{
 							<button className="nav-button">Tutorial</button>
 						</Link>
 
-						<img src={fireball} alt="fire" width="200" height="200"/>
+&nbsp;
+
 
 						<Link to="/WebPage">
 							<button className="nav-button">Web Page</button>
@@ -44,8 +52,12 @@ class List1 extends React.Component{
 						<Route path="/WebPage" component={WebPage} />
 						<Route path="/Conclusion" component={Conclusion} />
 						<Route path="/Credits" component={Credits} />
+
+
+						
 					</div>
 			</Router>
+			
     	);
 	}
 }

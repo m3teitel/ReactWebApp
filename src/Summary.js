@@ -6,17 +6,20 @@ import './summary.css';
 class Summary extends React.Component {
 	render() {
 		return (
+			
 			<div>
-      <div className="parallax"/>
+			<div className="gradient">
 			<div className="bg-text">
+			
         <h1>Summary Page</h1>
+				
 				<br/>
 
 					<p>
 						<h1>Frontend: React</h1>
 
 						<p>
-						React is an open-source JavaScript library for building user interfaces for web and mobile applications. 
+						React is an open-source JavaScript library that developers use to build user interfaces for web and mobile applications. 
 						It is one of the most popular UI library and framework due to multiple factors including its fast learning curve, functionality, and simplicity. 
 						React is mainly used for single page applications with dynamic controls and complex components since both of these can be handled easily. 
 						</p>
@@ -63,12 +66,13 @@ class Summary extends React.Component {
 						</p>
 
 						<p>
-						<h1>Backend: Express</h1>
+						<h1>Backend: Node.js</h1>
 						</p>
 
 						<p>
-						Express is an open-source application framework for Node.js. It has grown in popularity due to its flexibility, simplicity, extensibility, and performance. 
-						The best uses of Express are for applications that communicate with third party servers, real-time applications, and ones that monitor the visitor’s actions.
+						Node.js is an open-source application framework. It has grown in popularity due to its flexibility, simplicity, extensibility, and performance. 
+						The best uses of Node.js are for applications that communicate with third party servers, real-time applications, and ones that monitor the visitor’s actions. The
+						company 'Uber' is known to use this framework due to the real-time applications.
 						</p>
 
 						<p>
@@ -76,7 +80,7 @@ class Summary extends React.Component {
 						</p>
 
 						<p>
-						Fast Development: Expresses uses JavaScript on both the backend and frontend which results in the developer not losing time learning a new language. 
+						Fast Development: Node.js uses JavaScript on both the backend and frontend which results in the developer not losing time learning a new language. 
 						</p>
 
 						<p>
@@ -100,6 +104,7 @@ class Summary extends React.Component {
 						</p>
 					</p>
      		 </div>
+					</div>
 		</div>
     );
 	}

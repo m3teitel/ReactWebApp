@@ -6,7 +6,6 @@ class WebPage extends React.Component {
 	render() {
 		return (
 			<div>
-      <div className="parallax"></div>
 			<div className="bg-text">
         <h1>WebPage Page</h1>
 				<br/>

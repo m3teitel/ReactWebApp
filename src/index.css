@@ -5,16 +5,26 @@ body {
 
 
 .buttons{
-	background-image: url("space.jpg");
+background-color:white;
+
 }
 
+.container {
+    position: relative;
+}
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .nav-button {
-	background-color:rgb(58, 05, 62);
+	background-color:#8ad1b5;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:black;
 	font-family:Trebuchet MS;
 	font-size:15px;
 	padding:8px 23px;
