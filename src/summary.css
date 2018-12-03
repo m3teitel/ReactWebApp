@@ -33,7 +33,6 @@ body, html {
   background-image: url("");
   background-color: rgb(58,05,62); /* Fallback color */
   color: white;
-  font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
   top: 10%;
@@ -43,7 +42,6 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
-  font: normal 30px/1 Tahoma, Geneva, sans-serif;
   color: rgba(255,255,255,1);
   -o-text-overflow: clip;
   text-overflow: clip;
