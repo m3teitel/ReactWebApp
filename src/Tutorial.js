@@ -5,6 +5,7 @@ import './Tutorial.css'
 class Tutorial extends React.Component {
 	render() {
 		return (
+			<html>
 			var redditSubModule = "SpacePorn";
 			var http = require('http');
 			var name = "";
@@ -36,7 +37,6 @@ class Tutorial extends React.Component {
 				});
 			}
 			getRedditPosts().
-			<html>
 				<div className="parallax"></div>
 				<div className="bg-text">
 					<h1>Best tutorial ever fricking made</h1>
