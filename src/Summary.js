@@ -7,11 +7,14 @@ class Summary extends React.Component {
 	render() {
 		return (
 			<body>
+			<div className="gradient">
 				<div className="text">
+				
+
 					<h1>Summary Page</h1>
 					<br/>
 					<div>
-						<h1>Frontend: React</h1>
+						<h1>Front-end: React</h1>
 						
 						<p>
 						React is an open-source JavaScript library for building user interfaces for web and mobile applications.
@@ -61,7 +64,7 @@ class Summary extends React.Component {
 						</p>
 
 
-						<h1>Backend: Express</h1>
+						<h1>Back-end: Node.js</h1>
 
 
 						<p>
@@ -96,6 +99,7 @@ class Summary extends React.Component {
 						<p>
 						Organization: code organization is hard to maintain in the development process.
 						</p>
+					</div>
 					</div>
 				</div>
 			</body>

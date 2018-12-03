@@ -6,8 +6,8 @@ class Conclusion extends React.Component {
 	render() {
 		return (
 			<div>
-      <div className="parallax"></div>
-			<div className="bg-text">
+    
+			<div className="backgroundtext">
         <h1>Conclusion Page</h1>
 				<br/>
 				<body>
