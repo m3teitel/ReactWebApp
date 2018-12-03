@@ -19,16 +19,15 @@ class Tutorial extends React.Component {
 							var redditSubModule = "SpacePorn";
 							var http = require('http');
 							var name = "";
-							var url, request, json, redditResponse;
 							function getRedditPosts() {
-								url = "http://www.reddit.com/r/" + redditSubModule + "/new/.json?limit=50";
-								request = http.get(url, function(response) {
-									json = '';
+								var url = "http://www.reddit.com/r/" + redditSubModule + "/new/.json?limit=50";
+								var request = http.get(url, function(response) {
+									var json = '';
 									response.on('data', function(chunk) {
 										json += chunk;
 									});
 									response.on('end', function() {
-										redditResponse = JSON.parse(json);
+										var redditResponse = JSON.parse(json);
 										redditResponse.data.children.forEach(function(child) {
 											if(child.data.domain !== 'self.node') {
 												this.name += '-------------------------------';
