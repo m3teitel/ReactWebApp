@@ -10,10 +10,57 @@
   padding: 20px;
   text-align: left;
   background-image: url('stars.gif');
-background-size: cover;
-
+  background-size: cover;
 }
 
+.header {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0,0,0, 0.74);
+  text-align: center;
+}
+
+.questions {
+  text-shadow: 2px 2px 2px rgba(0,0,0, 0.74);
+  font-family: "Calibri";
+  font-size: 25px;
+}
+
+.trueBut{
+  opacity: 0.75;
+  background-color: rgb(0, 150, 50); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.falseBut{
+  opacity: 0.75;
+  background-color: rgb(146, 4, 4); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.trueBut:hover {
+  opacity: 1
+}
+.falseBut:hover {
+  opacity: 1
+}
+
+.page{
+  color: black;
+}
 
 .gradient{
   background-image: linear-gradient(white, #8ad1b5);
