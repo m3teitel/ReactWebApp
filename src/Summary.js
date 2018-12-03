@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import './summary.css';
 
+
 class Summary extends React.Component {
 	render() {
 		return (
