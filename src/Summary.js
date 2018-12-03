@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import './summary.css';
-import fireball from './fireball.gif';
 
 class Summary extends React.Component {
 	render() {
