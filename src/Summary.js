@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import './summary.css';
+import fireball from './fireball.gif';
 
 class Summary extends React.Component {
 	render() {
@@ -10,6 +11,7 @@ class Summary extends React.Component {
 			<div className="bg-text">
         <h1>Summary Page</h1>
 				<br/>
+
 					<p>
 						<h1>Frontend: React</h1>
 

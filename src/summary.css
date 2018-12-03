@@ -10,15 +10,16 @@ h1 {
 }
 
 .parallax {
-   //The image used
-   background-image: url("purplebg.png");
+   /*The image used*/
+ /*  background-color:rgb(58, 05, 62);*/
+ background-image: url("fireball.png");
 
-   // Set a specific height
+   /* Set a specific height*/
     height: 1000px;
 
     filter: blur(8px);
     -webkit-filter: blur(8px);
-   //Create the parallax scrolling effect 
+   /*Create the parallax scrolling effect*/ 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

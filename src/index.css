@@ -3,12 +3,15 @@ body {
   margin: 20px;
 }
 
+
 .buttons{
 	background-image: url("space.jpg");
 }
 
+
+
 .nav-button {
-	background-color:#009687;
+	background-color:rgb(58, 05, 62);
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
