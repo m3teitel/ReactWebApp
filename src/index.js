@@ -23,7 +23,7 @@ class List1 extends React.Component{
 						<Link to="/Tutorial">
 							<button className="nav-button">Tutorial</button>
 						</Link>
-						<img src="ballsoffire.jpg" height="100"/>
+						<img src="./ballsoffire.jpg" height="100"/>
 						<Link to="/WebPage">
 							<button className="nav-button">Web Page</button>
 						</Link>
