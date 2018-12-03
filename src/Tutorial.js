@@ -12,7 +12,7 @@ class Tutorial extends React.Component {
   };
 
   fetchPics() {
-    fetch("http://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=10")
+    fetch("https://www.reddit.com/r/" + redditSubModule + "/hot/.json?limit=10")
       .then(response => response.json())
       .then(data =>
         this.setState({
@@ -37,7 +37,7 @@ class Tutorial extends React.Component {
 					<body>
 						<p>
 							Y'all ready to learn how to make the best darn website on this side of the galaxy?
-						</p>						
+						</p>
 						<div id="test"></div>
 						<br/>
 					</body>
