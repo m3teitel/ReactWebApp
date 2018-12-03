@@ -42,9 +42,11 @@ class Tutorial extends React.Component {
 						<p>
 							Y'all ready to learn how to make the best darn website on this side of the galaxy?
 						</p>
-						<div>
-							this.name
-						</div>
+						<script>
+							var temp = this.name;
+							document.getElementById("test").innerHTML = temp;
+						</script>
+						<div id="test"></div>
 						<br/>
 					</body>
 				</div>
