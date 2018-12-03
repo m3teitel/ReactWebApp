@@ -1,6 +1,9 @@
 import React from 'react';
 import './index.css';
 import './Credits.css'
+import m from './m.png';
+import d from './d.png';
+import e from './e.png';
 
 class Credits extends React.Component {
 	render() {
@@ -16,13 +19,13 @@ class Credits extends React.Component {
 </p>
 
 <p>
-Michael Teitelbaum: 
+<img src={m} alt="m" width="25" height="30"/> Michael Teitelbaum:  HAVE TO WRITE CREDS!!!!!!
 </p>
 <p>
-Dennis Frolov:
+<img src={d} alt="d" width="25" height="30"/> Dennis Frolov:
 </p>
 <p>
-Elena Zubko:
+<img src={e} alt="e" width="25" height="30"/> Elena Zubko:
 </p>
 <p>
 <h2>References:</h2> 

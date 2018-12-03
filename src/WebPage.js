@@ -14,6 +14,7 @@ class WebPage extends React.Component {
 			<html class="gradient">
 				<title>My First React Page</title>
 				<body class="bg-textwebpage">
+				
 					<h1 align="center">Best Planets Around</h1>
 					<ol>
 						<li>Saturn<br/><img class="move" src={saturn} alt="Saturn" height="50px"/></li>
