@@ -16,6 +16,7 @@ class Tutorial extends React.Component {
 							Y'all ready to learn how to make the best darn website on this side of the galaxy?
 						</p>
 						<script>
+						/*
 							var redditSubModule = "SpacePorn";
 							var http = require('http');
 							var name = "";
@@ -44,8 +45,9 @@ class Tutorial extends React.Component {
 								});
 							}
 							getRedditPosts();
-							document.getElementById("test").innerHTML = name;
+							document.getElementById("test").innerHTML = name;*/
 						</script>
+						
 						<div id="test"></div>
 						<br/>
 					</body>
