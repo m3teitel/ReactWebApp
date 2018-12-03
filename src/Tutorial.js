@@ -54,12 +54,16 @@ class Tutorial extends React.Component {
               Now, within the return brackets, we can starting writing our html code. Since you have come here to learn React and Node.js, it is presumed that you
               have at least basic knowledge of html. As such, we are going to add our basic skeleton code inside the brackets.
             </p>
-            <pre align="left"><code>
-              <html><br/>
-              <body><br/>
-              </body><br/>
-              </html><br/>    
+            <pre align="left"><code>{'return(\n  <html>\n    <body>\n\n    </body>\n  </html>\n);'}             
             </code></pre>
+            <p align="left">
+              Now, we can customize this however we like! first, let's add a title to our page.
+            </p>
+            <pre align="left"><code>{'<html>\n  <title>My First React Page</title>\n  <body>\n\n  </body>\n</html>'}             
+            </code></pre>
+            <p align="left">
+              Now, we can customize this however we like! first, let's add a title to our page.
+            </p>
 					</body>
 				</div>
         {error ? <p>{error.message}</p> : null}
